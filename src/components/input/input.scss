@@ -1,0 +1,21 @@
+.input {
+  &__native {
+    width: 100%;
+    border: solid 2px;
+    background: transparent;
+    padding: 1em;
+  }
+
+  &__label-text {
+    margin-bottom: .5em;
+  }
+}
+
+.dark__input {
+  &__native {
+    border-color: #fff;
+    color: #fff;
+  }
+}
+
+.light__input {}

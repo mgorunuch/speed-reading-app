@@ -1,0 +1,17 @@
+.reader-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dark__reader-page {
+  background: #0e0e0e;
+  color: #fff;
+}
+
+.light__reader-page {
+  background: #eaeaea;
+  color: #282828;
+}
